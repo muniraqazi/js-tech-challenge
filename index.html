@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JS Tech Challenge</title>
+
+    <link rel="stylesheet" href="./styles/setup.css" />
+    <link rel="stylesheet" href="./styles/styles.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <main>
+      <section class="leftSection">
+        <img src="./assets/books.jpg" alt="" />
+      </section>
+
+      <section class="rightSection">
+        <header>
+          <h1>It's going down for real.</h1>
+        </header>
+        <div class="paragraph">
+          <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Odit quia,
+            quod nemo totam dolore magnam incidunt explicabo odio vitae itaque,
+            delectus officia fugiat. Voluptatem corporis, dignissimos quam non
+            dicta at? Munira!
+          </p>
+        </div>
+
+        <div class="aboutYou">
+          <h2>About you</h2>
+        </div>
+
+        <form>
+          <div class="nameContainer">
+            <div class="firstName">
+              <label for="firstName">First Name</label>
+              <input type="text" placeholder="Munira" id="firstName" />
+            </div>
+            <div class="lastName">
+              <label for="lastName">Last Name</label>
+              <input
+                type="text"
+                placeholder="Qazi"
+                id="lastName"
+                required
+              />
+            </div>
+          </div>
+
+              <label for="bookChoice">Type of Book Choice</label>
+              <select name="bookType" id="bookChoice">
+                <option value="hardcover">Hardcover</option>
+                <option value="paperback">Paperback</option>
+                <option value="magazine">Magazine</option>
+                <option value="audiobook">Audio Book</option>
+              </select>
+
+              <label for="phoneNumber">Phone Number</label>
+              <input
+                type="tel"
+                id="phoneNumber"
+                placeholder="555-555-5555"
+                maxlength="10"
+              />
+          <button type="submit">Send</button>
+        </form>
+      </section>
+      <!-- end of rightSection -->
+    </main>
+  </body>
+</html>
